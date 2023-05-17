@@ -1,8 +1,8 @@
 spring:
-  application:
-    name: comment-service
+#  application:
+#    name: comment-service
   datasource:
-    url: jdbc:h2:file:./comment_db
+    url: jdbc:h2:file:./comments_db
     username: sa
     password: sa
     driver-class-name: org.h2.Driver
@@ -13,6 +13,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
 management:
   tracing:
     sampling:
