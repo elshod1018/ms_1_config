@@ -24,6 +24,6 @@ post:
   details:
     service:
       baseUrl: http://POST-DETAILS-SERVICE/api/post-details
-comment:
+comments:
   service:
     baseUrl: http://COMMENT-SERVICE/api/comments
