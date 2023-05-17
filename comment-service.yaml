@@ -1,4 +1,8 @@
+server:
+  port: 7070
 spring:
+  application:
+    name: comment-service
   datasource:
     url: jdbc:h2:file:./comments_db
     username: sa
